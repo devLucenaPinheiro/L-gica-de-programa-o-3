@@ -2,6 +2,8 @@ let q = parseFloat(prompt("Digite o valor do quadrado: "))
 alert("a área do quadrado é: " + (q**2))
 
 
+
+
 v = 10;
 --v;
 alert(v);
