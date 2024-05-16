@@ -11,6 +11,7 @@ w = 30 + 50;
 w %= 3;
 alert("O valor de w é: " + (w));
 
+
 x = 10 + 20;
 x += 50;
 alert("O valor de x é: " + (x));
