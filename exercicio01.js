@@ -5,4 +5,4 @@ alert("O segundo número é maior ou igual ao primeiro? " + (n2 >= n1));
 
 let n3 = parseFloat(prompt("Digite um número: "));
 let n4 = parseFloat(prompt("Digite um número: "));
-alert("A média dos números digitados é maior que 7? "  + (( (n3 + n4) / 2) >= 7 ) );
+alert("A média dos números digitados é maior oi igual à 7? "  + (( (n3 + n4) / 2) >= 7 ));
