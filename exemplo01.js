@@ -39,3 +39,5 @@ console.log(typeof n);  //o tipo da variável n é um número, mas ela é NaN po
 v = 30;
 console.log(typeof v);
 console.log(typeof(v.toString()));
+
+console.log(typeof mensagem)
