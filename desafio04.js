@@ -6,11 +6,21 @@ if(n1 > 10 || n2 > 10){
     alert("Digite números menores que 10")
 }
 else{
-    if(media >= 4){
-        alert("Aprovado")
-
+    if(n1 < 0 || n2 < 0){
+        alert("Digite números maiores que 0")
     }
     else{
-        alert("Reprovado")
+        if(isNaN(n1) || isNaN(n2)){
+            alert("Digite apenas número")
+        }
+        else{
+            if(media >= 4){
+                alert("Aprovado")
+        
+            }
+            else{
+                alert("Reprovado")
+            }
+        }
     }
 }
