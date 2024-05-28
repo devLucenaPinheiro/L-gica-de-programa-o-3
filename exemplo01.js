@@ -42,3 +42,5 @@ console.log(typeof(v.toString()));
 
 console.log(typeof mensagem)
 
+console.log(v)
+

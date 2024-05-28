@@ -11,7 +11,7 @@ if(n1 > 10){
  else if(n1 == 9){
     alert("Você acertou o número!")
  }
- else{
+ else{  
     alert("Tente novamente")
  }
  
