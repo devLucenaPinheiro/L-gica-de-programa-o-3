@@ -1,25 +1,21 @@
-n = true
+let n = "olá"
 
-switch(n){
-    case false:
-        alert("O tipo da variável é: " + typeof(n))
+switch(typeof n){
+    case "boolean":
+        alert("O tipo da variável é boolean")
         break
-    case true:
-        alert("O tipo da variável é: " + typeof(n))
+    case "string":
+        alert("O tipo da variável é string")
         break
-    case String:
-        alert("O tipo da variável é: " + typeof(n))
+    case "number":
+        alert("O tipo da variável é número")
         break
-    case Number:
-        alert("O tipo da variável é: " + typeof(n))
+    case "null":
+        alert("O tipo da variável é object")
         break
-    case null:
-        alert("O tipo da variável é: " + typeof(n))
-        break
-    case undefined:
-        alert("O tipo da variável é: " + typeof(n))
+    case "undefined":
+        alert("O tipo da variável é undefined")
         break
     default:
         alert("Valor não reconhecido")
-
 }
