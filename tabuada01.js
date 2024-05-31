@@ -1,4 +1,4 @@
-let n = parseFloat(prompt("Digite um número de 1 a 1000"))
+let n = parseFloat(prompt("Digite um número"))
 let contador = 0
 
 if(isNaN(n)){
