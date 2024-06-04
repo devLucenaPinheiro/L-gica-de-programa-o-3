@@ -1,5 +1,5 @@
-n1 = parseFloat(prompt("Digite dois números e direi qual é maior!"))
-n2 = parseFloat(prompt("Digite o outro número"))
+let n1 = parseFloat(prompt("Digite dois números e direi qual é maior!"))
+let n2 = parseFloat(prompt("Digite o outro número"))
 
 if(n1 > n2){
     alert("O primeiro número é maior que o segundo: " + n1)
