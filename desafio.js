@@ -8,5 +8,6 @@ alert("O quadrado do resto da divisão de " + x + " por 6 é: " + ((x % 6) ** 2)
 alert("O valor da variavel é: " + x);
 x /= 4;
 
+x + 3
 
 alert("O valor final da variavel é: " + x);
