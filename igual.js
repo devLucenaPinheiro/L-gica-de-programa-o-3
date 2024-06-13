@@ -6,6 +6,7 @@ while(contador <= 1000){
     contador++
 }
 
-contador = 3
+contador = 3   
+contador + 4
 
 document.write(contador)
