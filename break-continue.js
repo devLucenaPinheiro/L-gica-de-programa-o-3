@@ -14,6 +14,8 @@ for(let i = 1; i < 10; i++){
 }
 console.log("Fim do loop com cotinue")
 
+console.log("começando")
+
 console.log("--------- loop while")
 
 let x = 1
