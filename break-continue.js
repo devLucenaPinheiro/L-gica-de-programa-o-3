@@ -40,3 +40,19 @@ while(x < 10){
     x++
 }
 console.log("Fim do loop while com break")
+
+var y = 0
+var y = "Olá mundo"
+
+console.log(y)
+
+x = 1
+
+while(x < 10){
+    if(x === 5){
+        x++
+        continue
+    }
+    console.log(x) 
+    x++
+}
